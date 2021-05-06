@@ -1,2 +1,6 @@
 # RED_SKULL
-ACTIVE-DIRECTERY-Recorn-Tool
+
+##ABOUT
+Red skull is a powerfull active directery recorn tool.
+
+##To Run
