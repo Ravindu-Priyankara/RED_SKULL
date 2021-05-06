@@ -303,7 +303,7 @@ while ($true) {
     if ($option -eq "10") {
         Animation { Start-Sleep 1 }
         Write-Output ""
-        Write-Host "##" -ForegroundColor Green -NoNewline; Write-Host "----------" -ForegroundColor Yellow -NoNewline; Write-Host "##" -ForegroundColor Green -NoNewline; Write-Host "----------" -ForegroundColor Yellow -NoNewline; Write-Host "Enable_Firewall" -ForegroundColor Red -NoNewline; Write-Host "---------" -ForegroundColor Yellow -NoNewline; Write-Host "##" -ForegroundColor Green -NoNewline; Write-Host "--------" -ForegroundColor Yellow -NoNewline; Write-Host "##" -ForegroundColor Green
+        Write-Host "##" -ForegroundColor Green -NoNewline; Write-Host "----------" -ForegroundColor Yellow -NoNewline; Write-Host "##" -ForegroundColor Green -NoNewline; Write-Host "----------" -ForegroundColor Yellow -NoNewline; Write-Host "Disable_Firewall" -ForegroundColor Red -NoNewline; Write-Host "---------" -ForegroundColor Yellow -NoNewline; Write-Host "##" -ForegroundColor Green -NoNewline; Write-Host "--------" -ForegroundColor Yellow -NoNewline; Write-Host "##" -ForegroundColor Green
         Write-Output ""
         Animation { Start-Sleep 1 }
         powershell.exe netsh advfirewall set currentprofile state off
@@ -312,7 +312,7 @@ while ($true) {
     if ($option -eq "11") {
         Animation { Start-Sleep 1 }
         Write-Output ""
-        Write-Host "##" -ForegroundColor Green -NoNewline; Write-Host "----------" -ForegroundColor Yellow -NoNewline; Write-Host "##" -ForegroundColor Green -NoNewline; Write-Host "----------" -ForegroundColor Yellow -NoNewline; Write-Host "Disable_Firewall" -ForegroundColor Red -NoNewline; Write-Host "---------" -ForegroundColor Yellow -NoNewline; Write-Host "##" -ForegroundColor Green -NoNewline; Write-Host "--------" -ForegroundColor Yellow -NoNewline; Write-Host "##" -ForegroundColor Green
+        Write-Host "##" -ForegroundColor Green -NoNewline; Write-Host "----------" -ForegroundColor Yellow -NoNewline; Write-Host "##" -ForegroundColor Green -NoNewline; Write-Host "----------" -ForegroundColor Yellow -NoNewline; Write-Host "Enable_Firewall" -ForegroundColor Red -NoNewline; Write-Host "---------" -ForegroundColor Yellow -NoNewline; Write-Host "##" -ForegroundColor Green -NoNewline; Write-Host "--------" -ForegroundColor Yellow -NoNewline; Write-Host "##" -ForegroundColor Green
         Write-Output ""
         Animation { Start-Sleep 1 }
         powershell.exe netsh advfirewall set currentprofile state on
