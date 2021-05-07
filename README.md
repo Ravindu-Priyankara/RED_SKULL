@@ -34,5 +34,5 @@ following options are included.
      25. domain and domain controller information.        
      26. list all patches.      
 
-Full video tutorial 
-    #link :- https://youtu.be/Te4FTLK_9t4
+Full video tutorial         
+        #link :- https://youtu.be/Te4FTLK_9t4
