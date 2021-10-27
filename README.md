@@ -3,8 +3,8 @@
 ##ABOUT        
 Red skull is a powerfull active directery recon tool.
 It works any windows platforms.
-But some options not working user powershell. Using the administrator powershell you can run all the options without error. 
-Always red skull is not harmful your system.
+But some options are not working user powershell. These time plese use the administrator powershell. So then you can run all the options without error. 
+Always red skull is not harmful to your system.
 
 following options are included.     
      1.  ip adress and other informations.   
